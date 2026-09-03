@@ -1,0 +1,22 @@
+{
+  "name": "symbol-onchain-analysis",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Symbol(XYM)ブロックチェーンのオンチェーン分析ダッシュボード。Symbol-tomato-wallet のオンチェーン分析機能のみを抽出したスタンドアロンReactアプリ。",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:single": "vite build --config vite.single.config.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
